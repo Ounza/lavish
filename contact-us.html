@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- This is the Eric Meyers CSS reset -->
+    <link rel="stylesheet" href="css-reset.css" />
+
+    <!-- This is the main stylesheet -->
+    <link rel="stylesheet" href="main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/6971a76c77.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Lavish Looks - Contact Us Details</title>
+    <meta
+      name="description"
+      content="Contact us
+    Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within a matter of hours to help you.
+    "
+    />
+  </head>
+
+  <body>
+    <div class="heading">
+      <div class="logo">
+        <a href="index.html"> <i class="far fa-eye"></i></a>
+      </div>
+      <div class="navigation-main">
+        <div class="navbutton">
+          <a href="courses.html" class="navigation">Classes</a>
+        </div>
+        <div class="navbutton">
+          <a href="about-us.html" class="navigation">About</a>
+        </div>
+        <div class="navbutton">
+          <a href="products.html" class="navigation">Products</a>
+        </div>
+        <div class="navbutton">
+          <a href="services.html" class="navigation">Services</a>
+        </div>
+        <div class="navbutton">
+          <a href="contact-us.html" class="navigation">Contact</a>
+        </div>
+      </div>
+    </div>
+    <div class="main2">
+      <h1 style="margin: 0;">Contact Us</h1>
+      <p>
+        Do you have any questions? Please do not hesitate to contact us
+        directly. Our team will come back to you within a matter of hours to
+        help you.
+      </p>
+
+      <form action="mail.php" method="post">
+        <div class="inputwrapper">
+          <label for="name" class="newline">First Name</label>
+          <input type="text" name="name" id="name" placeholder="First Name" />
+        </div>
+        <div class="inputwrapper">
+          <label for="email" class="newline">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="simba@email.com"
+          />
+        </div>
+        <div class="inputwrapper">
+          <p>Your Message</p>
+          <textarea
+            name="inputtext"
+            id="inputtext"
+            cols="30"
+            rows="5"
+            placeholder="Input feedback here"
+          ></textarea>
+        </div>
+        <div class="inputwrapper">
+          <input
+            type="checkbox"
+            name="sign-me-up"
+            id="sign-me-up"
+            value="Yes Sign me up for email"
+            checked
+          />
+          <label for="sign-me-up">Sign Me Up for Newsletters</label>
+        </div>
+        <div class="inputwrapper">
+          <p>How would you like to be contacted?</p>
+          <input type="radio" name="contact-pref" id="phone" value="phone" />
+          <label for="phone" class="margin-right-a">Phone</label>
+          <input type="radio" name="contact-pref" id="email2" value="email" />
+          <label for="phone">Email</label>
+        </div>
+        <div class="inputwrapper">
+          <p>Which county do you belong to?</p>
+          <select name="county" id="county">
+            <option value="Nairobi">Nairobi</option>
+            <option value="Mombasa">Mombasa</option>
+            <option value="Kisumu">Kisumu</option>
+            <option value="Kiambu">Kiambu</option>
+          </select>
+        </div>
+        <div class="inputwrapper">
+          <input type="date" name="date" id="date" />
+        </div>
+        <input type="submit" value="Submit" class="navbutton" />
+      </form>
+    </div>
+    <div class="cards">
+      <div class="card1">
+        <a href="#">
+          <h2>Book online</h2>
+        </a>
+      </div>
+      <div class="card2">
+        <a href="#">
+          <h2>Service Types</h2>
+        </a>
+      </div>
+      <div class="card3">
+        <a href="#">
+          <h2>Call for Advice</h2>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,263 @@
+/*html {
+  background-image: linear-gradient(-147deg, #ffe53b, #ff2525);
+}*/
+body {
+  background-color: #c39885;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-size: 1.125rem;
+}
+.container-main {
+  min-height: 300px;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+}
+.mycarousel {
+  margin-bottom: 40px;
+}
+h4 {
+  color: white;
+  font-family: "Courgette", cursive;
+}
+.heading {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: rgba(0, 0, 0);
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: thin solid lightgray;
+  z-index: 1000;
+}
+.navigation-main {
+  text-align: right;
+  flex: 2;
+}
+.flex {
+  display: flex;
+  margin-bottom: 40px;
+}
+.flex1 {
+  flex: 1;
+}
+.flex2 {
+  flex: 2;
+  margin-left: 20px;
+  padding: 20px;
+  background-color: black;
+  border: solid thin black;
+  color: white;
+}
+.navigation {
+  text-decoration: none;
+  color: white;
+  font-family: "Playfair Display", serif;
+}
+.navbutton:hover {
+  background-color: rgba(0, 0, 0, 0.37);
+  transition-duration: 1s;
+}
+.navbutton {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.363);
+}
+.logo {
+  text-align: left;
+  flex: 1;
+}
+main {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+}
+.main2 {
+  min-height: 300px;
+  padding: 50px;
+}
+li {
+  line-height: 1.75rem;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.card1 {
+  background-image: url("images/image-makeup4.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+  width: 30%;
+  box-shadow: 0px 5px 5px black;
+}
+.card2 {
+  background-image: url("images/image-makeup5.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+  width: 30%;
+  box-shadow: 0px 5px 5px black;
+}
+.card3 {
+  background-image: url("images/image-makeup6.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+  width: 30%;
+  box-shadow: 0px 5px 5px black;
+}
+.description {
+  display: flex;
+  margin-bottom: 50px;
+}
+.herobox1 {
+  flex: 2;
+  padding-right: 100px;
+}
+.herobox2 {
+  flex: 1;
+}
+h1 {
+  font-size: 3.25rem;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 1rem;
+  text-shadow: 0px 5px 5px black;
+}
+h2 {
+  font-size: 2rem;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 20px;
+}
+p {
+  line-height: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+.card1,
+.card2,
+.card3 {
+  padding: 30px 30px 20px 30px;
+  box-sizing: border-box;
+}
+.cards h2 {
+  padding-top: 150px;
+  font-weight: 1000;
+}
+i {
+  font-size: 100px;
+  color: #c39885;
+}
+.cards a {
+  color: black;
+  text-decoration: none;
+}
+.herobox1 a {
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  font-family: "Playfair Display", serif;
+  padding: 10px;
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px black;
+}
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.tbox {
+  background-color: black;
+  border: solid thin black;
+  color: white;
+  width: 47%;
+  padding: 50px;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+.inputwrapper {
+  margin-bottom: 30px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 12px;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.85rem;
+  box-sizing: border-box;
+}
+.newline {
+  display: block;
+  margin-bottom: 10px;
+}
+input[type="radio"] {
+  margin-right: 5px;
+}
+.margin-right-a {
+  margin-right: 20px;
+}
+form {
+  margin: 20px 0px;
+}
+
+/*Form Control*/
+:root {
+  --success-color: #2ecc71;
+  --error-color: red;
+}
+* {
+  box-sizing: border-box;
+}
+
+.formC h2 {
+  text-align: center;
+}
+.form-control {
+  position: relative;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+}
+.form-control label {
+  display: block;
+  margin-bottom: 5px;
+  color: #777777;
+}
+.form-control input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  font-size: 14px;
+  display: block;
+}
+.form-control input:focus {
+  outline: 0;
+  border-color: #777;
+}
+.formC {
+  padding: 30px 40px;
+}
+.form-control.success input {
+  border-color: var(--success-color);
+}
+.form-control.error input {
+  border-color: var(--error-color);
+}
+.form-control small {
+  color: var(--error-color);
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
+.form-control.error small {
+  visibility: visible;
+}
